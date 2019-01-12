@@ -17,13 +17,16 @@
   opacity: 0;
   transition: all ease 1000ms;
 }
+
 main {
   position: relative;
   width: 500px;
   height: 500px;
 }
+
 .page {
   position: absolute;
   width: 100%;
   height: 100%;
+  transform: translateX(-100%);
 }
