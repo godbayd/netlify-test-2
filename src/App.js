@@ -49,6 +49,7 @@ class Main extends React.Component {
                     key={location.key}
                     timeout={1000}
                     classNames="fade"
+                    appear
                   >
                     <Switch location={location}>
                       <Route exact path="/" component={Home} />
