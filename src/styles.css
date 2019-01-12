@@ -1,15 +1,12 @@
-.fade {
-  position: absolute;
-}
 .fade-appear,
 .fade-enter {
   opacity: 0;
-  z-index: 1;
 }
+
 .fade-appear.fade-appear-active,
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity ease 1000ms 500ms;
+  transition: all ease 1000ms;
 }
 
 .fade-exit {
@@ -18,5 +15,15 @@
 
 .fade-exit.fade-exit-active {
   opacity: 0;
-  transition: opacity ease 500ms;
+  transition: all ease 1000ms;
+}
+main {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
